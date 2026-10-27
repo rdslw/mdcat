@@ -16,6 +16,8 @@ Use `cargo release` to create a new release.
   `--frontmatter`, as without `--stream`. Reference links and footnotes only resolve against
   definitions in the same block. `--no-stream`, `--toc`, and `--watch` turn off
   `defaults.stream`.
+- Release binaries for macOS on Apple Silicon (`aarch64-apple-darwin`). They link OpenSSL
+  statically, and need no libraries from Homebrew.
 
 ## [2.19.0] – 2026-10-19
 
