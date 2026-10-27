@@ -8,6 +8,11 @@ Use `cargo release` to create a new release.
 
 ## [Unreleased]
 
+## [2.19.0+rs2] – 2026-10-27
+
+Fork release from [rdslw/mdcat](https://github.com/rdslw/mdcat): upstream 2.19.0 with the
+two changes below.
+
 ### Added
 - `--stream`/`defaults.stream` in `~/.config/mdcat/config.toml` renders the input block by block
   as it arrives, instead of after reading all of it, e.g. to follow Markdown while a program
@@ -1142,7 +1147,8 @@ Use `cargo release` to create a new release.
 - Support ordered and unordered lists, with nest.
 - Show links, with references grouped by section.
 
-[Unreleased]: https://github.com/BIRSAx2/mdcat/compare/mdcat-2.19.0...HEAD
+[Unreleased]: https://github.com/rdslw/mdcat/compare/mdcat-2.19.0+rs2...HEAD
+[2.19.0+rs2]: https://github.com/rdslw/mdcat/compare/b1b0a26a112a...mdcat-2.19.0+rs2
 [2.19.0]: https://github.com/BIRSAx2/mdcat/compare/mdcat-2.18.0...mdcat-2.19.0
 [2.18.0]: https://github.com/BIRSAx2/mdcat/compare/mdcat-2.17.0...mdcat-2.18.0
 [2.17.0]: https://github.com/BIRSAx2/mdcat/compare/mdcat-2.16.1...mdcat-2.17.0
