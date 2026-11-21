@@ -8,6 +8,11 @@ Use `cargo release` to create a new release.
 
 ## [Unreleased]
 
+## [2.20.2+rs2] – 2026-11-21
+
+Fork release from [rdslw/mdcat](https://github.com/rdslw/mdcat): upstream 2.20.2 with the
+changes below.
+
 ### Added
 - Release binaries for macOS on Apple Silicon (`aarch64-apple-darwin`). They only need
   libraries that are part of macOS, not from Homebrew.
@@ -1186,7 +1191,8 @@ Use `cargo release` to create a new release.
 - Support ordered and unordered lists, with nest.
 - Show links, with references grouped by section.
 
-[Unreleased]: https://github.com/BIRSAx2/mdcat/compare/mdcat-2.20.2...HEAD
+[Unreleased]: https://github.com/rdslw/mdcat/compare/mdcat-2.20.2+rs2...HEAD
+[2.20.2+rs2]: https://github.com/rdslw/mdcat/compare/ee3cd2d80e6b...mdcat-2.20.2+rs2
 [2.20.2]: https://github.com/BIRSAx2/mdcat/compare/mdcat-2.20.1...mdcat-2.20.2
 [2.20.1]: https://github.com/BIRSAx2/mdcat/compare/mdcat-2.20.0...mdcat-2.20.1
 [2.20.0]: https://github.com/BIRSAx2/mdcat/compare/mdcat-2.19.0...mdcat-2.20.0
